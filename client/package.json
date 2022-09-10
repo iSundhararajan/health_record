@@ -3,15 +3,27 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@celo/contractkit": "^1.2.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "@truffle/contract": "^4.6.0",
+    "@truffle/hdwallet-provider": "^2.0.14",
+    "compressorjs": "^1.0.7",
+    "dotenv": "^16.0.2",
+    "ethers": "^4.0.48",
+    "fs": "*",
+    "ipfs-http-client": "^50.0.0",
+    "path": "^0.12.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.4.0",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "rimble-ui": "^0.14.0",
+    "truffle-contract": "^4.0.31",
+    "web-vitals": "^2.1.4",
+    "web3": "^1.7.5"
   },
   "scripts": {
     "start": "react-scripts start",

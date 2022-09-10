@@ -6,6 +6,15 @@ export default function Navbar() {
 
     const [showNavbar, setShowNavbar] = React.useState(false);
 
+    const [account, setAccount] = React.useState(null);
+
+    const web3Handler = async () => {
+        const accounts = await window.ethereum.request({
+            method: "eth_requestAccounts",
+        });
+        setAccount(accounts[0]);
+    };
+
     return (
         <div >
             <nav className="flex items-center py-2 flex-wrap px-4 text-fontColor tracking-wider">
@@ -75,6 +84,26 @@ export default function Navbar() {
                         <Link to="/doctors">
                             <span className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center dark:hover:bg-navHover hover:bg-secondary cursor-pointer text-white">Doctors</span>
                         </Link>
+
+                        {account ? (
+                            <div
+                                href={`https://etherscan.io/address/${account}`}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="button nav-button btn-sm mx-4"
+                            >
+                                <button className="bg-secondary py-2 px-8 rounded-md text-white font-bold hover:bg-purple-800">
+                                    {account.slice(0, 5) + "..." + account.slice(38, 42)}
+                                </button>
+                            </div>
+                        ) : (
+                            <button
+                                onClick={web3Handler}
+                                className="bg-secondary py-2 px-8 rounded-md text-white font-bold hover:bg-purple-800"
+                            >
+                                Connect Wallet
+                            </button>
+                        )}
 
                     </div>
                 </div>
