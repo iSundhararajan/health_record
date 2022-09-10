@@ -27,10 +27,6 @@ We are using GitHub for the following reasons:
 
 We have deployed our project on Replit. Replit is a cloud-based IDE that allows you to code in 50+ programming languages without having to install anything on your computer. It is a great tool for developers to collaborate and build projects.
 
-## 🌐 Best Domain Name from GoDaddy Registry
-
-- We are using the domain
-
 ## 🧠 Challenges we ran into
 
 - Implementing the Hedera was a challange but we learned and buils it.
