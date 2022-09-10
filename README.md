@@ -1,10 +1,10 @@
-# APP NAME
+# Medicord
 
 ## 💡 Inspiration
 
 ## 💻 What it does
 
-Our web-app "APP NAME" is built with features:
+Our web-app "Medicord" is built with features:
 
 - Store all your medical records securely on the blockchain.
 - Book appointments with doctors.
