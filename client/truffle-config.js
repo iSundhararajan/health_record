@@ -1,7 +1,6 @@
 require("dotenv").config();
 const HDWalletProvider = require("@truffle/hdwallet-provider");
 
-// Account credentials from which our contract will be deployed
 const MNEMONIC = process.env.MNEMONIC;
 
 module.exports = {
