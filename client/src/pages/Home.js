@@ -11,7 +11,7 @@ export default function Home() {
             <div className='md:grid md:grid-cols-2 items-center'>
                 <div className=''>
                     <h1 className='text-3xl md:text-6xl'>Who we are</h1>
-                    <p className='text-xl md:text-2xl py-4 tracking-wider text-justify'>About the web app.</p>
+                    <p className='text-xl md:text-2xl py-4 tracking-wider text-justify'>Medicord, a web platform that is designed to help patients to keep track of their medical records and efficiently communicate with their doctors. This website securely stores all of the patient's medical records, through the use of blockchain and allows them to book appointments with their doctor.</p>
 
                     <Link to="/records">
                         <button className='bg-secondary py-2 px-8 rounded-md text-xl md:text-2xl'>Store Medical Records</button>

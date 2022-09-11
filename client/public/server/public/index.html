@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Medicord</title>
+  <link rel="stylesheet" href="/index.css">
+  </link>
+</head>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+<script src="/index.js"></script>
+
+<body>
+  <div class="chat">
+    <div class="main-panel rounded-xl  h-screen p-10 w-full ">
+      <div class="content shadow-xl rounded-xl border-white border-r-4 border-b-4 border-2 bg-gradient-to-r from-gray-700 via-gray-900 to-black   
+        ">
+        <div class="header rounded-t-xl bg-inherit ">
+          <div class="chat-details ">
+            <h3 class="text-xl font-bold text-white" id="topic-id"> </h3>
+            <h4 id="sequence-number"> </h4>
+          </div>
+        </div>
+        <ul id="messages">
+        </ul>
+
+      </div>
+      <form class="  ml-5 mb-5 h-14 w-[93%] rounded-xl border-black border-2  " id="form" action="">
+        <input class="rounded-xl" id="m" autocomplete="off" placeholder="Type a message here" /><button
+          class=" border-r-4 border-black font-bold text-lg hover:bg-yellow-500 rounded-xl  bg-yellow-300 px-10 py-3"
+          alt="send">SEND </button>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
