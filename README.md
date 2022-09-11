@@ -6,20 +6,19 @@
 
 ## 💡 Inspiration
 
+Many countries do not have a synchronized medical platform where patients can view their health records, contact doctors, etc. Oftentimes, they need to wait long hours to get medical help due to logistics and lack of communication between patient and doctors. This inspired us to create Medicord, a web platform that is designed to help patients to keep track of their medical records and efficiently communicate with their doctors. This website securely stores all of the patient’s medical records, through the use of blockchain and allows them to book appointments with their doctor. In case they need immediate medical help, they can set up a virtual consultation with their doctor. Also, this platform allows users to connect with doctors of natural medicine such as homeopathy, ayurveda, etc. All of these doctors will be able to view the patient’s record, thereby reducing wait time and improving the patient's health.
 
 ## ⚙ What it does
 
-Our web-app "APP NAME" is built with features:
+Our web-app "Medicord" is built with features:
 
 - Store all your medical records securely on the blockchain.
 - Book appointments with doctors.
 - Virtual consultation with doctors.
 
-
 ## 🔐 Best Blockchain Project Using Hedera
 
-We are using **Hedera’s testnet** to deploy smart contracts. Hedera is a decentralized public network that utilizes the Hashgraph consensus algorithm to overcome the traditional limitations of blockchain and allow one to create the next era of fast, fair, and secure applications.
-
+We are using **Hedera’s testnet** to deploy smart contracts and building decentralized chatroom. Hedera is a decentralized public network that utilizes the Hashgraph consensus algorithm to overcome the traditional limitations of blockchain and allow one to create the next era of fast, fair, and secure applications.
 
 ## 💭 Most Creative Use of GitHub
 
@@ -30,11 +29,9 @@ We are using GitHub for the following reasons:
 - **Implementing the CI/CD workflow**: GitHub makes it easy to implement the CI/CD workflow and makes the deployment process easy.
 - **Using PRs and Issues**: We are doing multiple PRs and building multiple issues to keep on track of the project.
 
-
 ## 🔗 Replit
 
 We have deployed our project on Replit. Replit is a cloud-based IDE that allows you to code in 50+ programming languages without having to install anything on your computer. It is a great tool for developers to collaborate and build projects.
-
 
 ## 🧠 Challenges we ran into
 
@@ -43,8 +40,7 @@ We have deployed our project on Replit. Replit is a cloud-based IDE that allows 
 - Due to the difference in time zones, it was difficult to communicate with each other.
 - Completing the project was a challenge because we had to implement the project in a deadline.
 
-
-## 🖥️ Tech Used 
+## 🖥️ Tech Used
 
 - Frontend:
 
@@ -63,9 +59,9 @@ We have deployed our project on Replit. Replit is a cloud-based IDE that allows 
 - Other:
 
   ![Replit](https://img.shields.io/badge/Replit-DD1200?style=for-the-badge&logo=Replit&logoColor=white)
+
   - Hedera
   - Twilio
-
 
 ## 🤝 Contributors
 
@@ -80,7 +76,6 @@ Meet the wonderful team who worked on this project!
     </tr>
   </tbody>
 </table>
-
 
 ## 📝 Feedback
 
